@@ -1,5 +1,9 @@
 .App {
-  text-align: center;
+  min-width: 100vw;
+  min-height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
 
 .App-logo {
@@ -28,6 +32,30 @@
   color: #61dafb;
 }
 
+.Comp {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+
+.Comp.A {
+  height: 600px;
+  width: 600px;
+  border: 10px solid blue;
+}
+
+.Comp.B {
+  height: 400px;
+  width: 400px;
+  border: 10px solid chocolate;
+}
+
+.Comp.C {
+  height: 200px;
+  width: 200px;
+  border: 10px solid green;
+}
 @keyframes App-logo-spin {
   from {
     transform: rotate(0deg);
